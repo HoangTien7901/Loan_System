@@ -1,0 +1,7 @@
+- On the left is a menu bar and an icon from where you can access other pages which will be displayed through all pages.
+- When you click the icon, you can return to the home page.
+- On the right side is the content of the page.
+	+ On the top right is the "Logout" button, click it to return to the "Login" page.
+	+ On the bottom right is the "Reset" button, click it to reset the application (show unread notifications, update fines, and installments).
+	+ In the middle is the "Add new customer button", click it to quickly add a new customer.
+	+ On the top left is the "Change username and password" button, click it to toggle a panel and you can change your username and password there.

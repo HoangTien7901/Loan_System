@@ -1,0 +1,4 @@
+- Show all messages the system has generated. Including messages about overdue or near due installment and fines.
+- You can search by selecting the status and/or the time range in which the message is located and click the "Search" button.
+- To reset data in the table and searching fields, click the "Reset" button.
+- To check a message as read, click on that message in the table below, then right-click and choose "Check as read".

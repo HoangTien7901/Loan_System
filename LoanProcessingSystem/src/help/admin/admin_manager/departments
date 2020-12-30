@@ -1,0 +1,18 @@
+- This page shows current departments in the database. You can add, delete, or update the information of departments here.
+- Add: 
+	+ Fill in the "Department name" field. This field only contains words, no number, you just need to enter the name of the department. 
+	Ex: Enter "Vehicle" to the "Department name" field and click the "Add" button, " Finance Department" will be automatically appended at the end of it.
+	+ Click on the "Add" button.
+- Delete:
+	+ Note: You can only delete a department if there is no staff with that department in the database.
+	+ Choose a department in the table below and click the "Delete" button.
+	+ A message window will appear to confirm. Choose "Yes" to continue or "Cancel" or close the window to cancel.
+- Update:
+	+ Choose a department in the table below. Right-click, choose "Update", 
+	then the name of that department will appear in the "Department name" field and the "Add" button will change to "Update".
+	+ Change what you need and click the "Update" button. 
+- Reset: change all fields and the table to the default values.
+Note: All ids are automatically increased and won't decrease after deleting a row. Please only delete if it is really necessary.
+
+
+

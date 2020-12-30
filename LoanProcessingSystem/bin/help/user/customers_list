@@ -1,0 +1,21 @@
+- This page shows all current customers are stored in the database. You can add, delete, or update the information of customers here.
+- Add: 
+	+ Click on the "Add" button. "Add customer" window appears.
+	+ Fill in all field have * and click the "Add" button :
+		.First name: only one word is allowed.
+		.Last name: can have one or more words.
+		.Email: data in the field have to be a valid email. Example: abc1@gmail.com
+		.Id no: have from 8 to 12 numbers, no space.
+		.Dob: must not contain word and follows pattern dd/MM/yyyy.
+		.Organization: choose one from the combo box.
+		.Phone number: have exactly 10 numbers.
+		.Gross salary: only contain the number.
+		.Address: must not contain special characters (except / and - );
+	+ Click the "Reset" button to set all field to default.
+- Delete:
+	+ Make sure you have deleted this customer's loans and related installments or it may cause lost data or errors in the system.
+	+ Choose a customer in the table below and click the "Delete" button.
+	+ A message window will appear to confirm. Choose "Yes" to continue or "Cancel" or close the window to cancel.
+- Update:
+	+ Choose a customer in the table below. Right-click, choose "Update" and the "Customer update" window will appears.
+	+ Change what you need and click the "Update" button. 

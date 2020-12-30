@@ -1,0 +1,2 @@
+1. Every time the user starts the application or click the reset button in the Homepage, the system will check all installment and create fines, messages and notification accordingly.
+2. All notify messages will be generated only once when the term of the installment is 7 days less.

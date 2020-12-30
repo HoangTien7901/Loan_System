@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="miglayout15-swing.jar" sourcepath="miglayout-src.zip"/>
+	<classpathentry kind="lib" path="D:/tien/Java/loan_Processing/Group 4 - Semester 2 - Project Loan Processing System/source code/Java libraries/jbcrypt-0.4.jar"/>
+	<classpathentry kind="lib" path="D:/tien/Java/loan_Processing/Group 4 - Semester 2 - Project Loan Processing System/source code/Java libraries/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/tien/Java/loan_Processing/Group 4 - Semester 2 - Project Loan Processing System/source code/Java libraries/JTattoo-1.6.13.jar"/>
+	<classpathentry kind="lib" path="D:/tien/Java/loan_Processing/Group 4 - Semester 2 - Project Loan Processing System/source code/Java libraries/mysql-connector-java-8.0.15.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,12 @@
+- This page shows all current fines are stored in the database. You can search and update the information on fines here.
+- Update:
+	+ Choose a fine in the table below. Right-click, choose "Update" and the "Update fine detail" window will appear.
+	+ Here you can change "Payday" and "Status"
+		.Payday: must not contain the word and follow pattern dd/MM/yyyy.
+		.Status: if the status is "done", payday must not be null.
+- Search:
+	+ You can search separately by Id, Status, and/or Created date or by any of them.
+		.Id: installment details id of a fine.
+		.Status: status of a fine, "pending" or "done"
+		.Created date: lists fines with a created date that falls between this date and now.
+- Reset: reset the table and all searching fields to default.

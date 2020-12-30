@@ -1,0 +1,5 @@
+- This page shows details about all past login attempts. You can read and search for a login attempt based on login time and logout time.
+- Search:
+	+ Fill in the start time limit in the first field and the end time limit in the second field follow pattern dd/MM/yyyy HH:mm:ss.
+	+ Click the "Search" button.
+- Reset: change all fields and the table to the default values.

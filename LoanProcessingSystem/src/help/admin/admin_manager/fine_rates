@@ -1,0 +1,16 @@
+- This page shows the fine rate on the total loan that corresponds to the amount of the installment.
+You can add, delete, or update fine rates here.
+- Add:
+	+ Fill in the "Lower limit" and "Higher limit" fields. 
+	These fields only contain numbers and they are limits for determining which fine rate will an installment get. 
+	+ Fill in the "Fine rate" field. This field only contains numbers. If the amount of an installment is within the limit, 
+	a fine of an amount equal to this value multiplied by the total amount of the loan will be generated.
+- Delete:
+	+ Note: Please ensure there are no gaps between the limits after delete.
+	+ Choose a fine rate in the table below and click the "Delete" button.
+	+ A message window will appear to confirm. Choose "Yes" to continue or "Cancel" or close the window to cancel.
+- Update:
+	+ Choose a fine rate in the table below. Right-click, choose "Update", 
+	then details of that fine rate will appear in the corresponding fields and the "Add" button will change to "Update".
+	+ Change what you need and click the "Update" button. 
+- Reset: change all fields and the table to the default values.

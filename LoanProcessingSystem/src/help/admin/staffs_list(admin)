@@ -1,0 +1,26 @@
+- This page shows all staff is stored in the database. You can search, add, delete, or update the information of staff here.
+- Admin can update and delete all staff regardless of position.
+- Search:
+	+ You can search staff by id or username or both by fill-in field(s) you need and click the "Search" button.
+	+ To return to default values, click the "Reset" button.
+- Add:
+	+ Click on the "Add" button. "Add customer" window appears.
+	+ Fill in all field have * and click the "Add" button :
+		.First name: only one word is allowed.
+		.Last name: can have one or more words.
+		.Gender: choose male or female, default is male.
+		.Username: only one word is allowed, including number, lower-case, and upper-case words.
+		.Password: no spaces and special characters ( ', " and ;).
+		.Position: select one from the combo box.
+		.Dob: must not contain words and follows pattern dd/MM/yyyy.
+		.Address: choose one from the combo box.
+		.Gross salary: only contain the number.
+		.Start date: must not contain words and follows pattern dd/MM/yyyy.
+ 	+ Click the "Reset" button to set all fields to default.
+- Delete:
+ 	+ Make sure you have deleted this staff's loans or it may cause lost data or errors in the system.
+ 	+ Choose a staff in the table below and click the "Delete" button.
+ 	+ A message window will appear to confirm. Choose "Yes" to continue or "Cancel" or close the window to cancel.
+- Update:
+ 	+ Choose a staff in the table below. Right-click, choose "Update" and the "Staff details update" window will appear.
+ 	+ Change what you need and click the "Update" button. (you must fill in "End date" if you want to set "Status" to another value than "working")

@@ -1,0 +1,13 @@
+- This page shows current organizations in the database. You can add, delete, or update the information of organizations here.
+- Add: 
+	+ Fill in the "Organization name" field. This field only contains words, no number. 
+	+ Click on the "Add" button.
+- Delete:
+	+ Note: You can only delete an organization if there is no customer with that organization in the database.
+	+ Choose an organization in the table below and click the "Delete" button.
+	+ A message window will appear to confirm. Choose "Yes" to continue or "Cancel" or close the window to cancel.
+- Update:
+	+ Choose an organization in the table below. Right-click, choose "Update", 
+	then the name of that organization will appear in the "Organization name" field and the "Add" button will change to "Update".
+	+ Change what you need and click the "Update" button. 
+- Reset: change all fields and the table to the default values.

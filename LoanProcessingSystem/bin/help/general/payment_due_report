@@ -1,0 +1,4 @@
+- This page provides the details of customers for whom the date of payment has already passed but the payment is not yet done.
+- You can search for a customer by fill in the "Loan account no" field and click the "Search" button.
+- Click the "Reset" button to return to default.
+- You can see details about overdue installments of a customer by selecting that customer, right-click and choose "Show due installment details".

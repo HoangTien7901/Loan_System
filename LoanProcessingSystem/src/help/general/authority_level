@@ -1,0 +1,13 @@
+- Each user has an authority level which affects the ability to change other staff details in the "Staffs list" page.
+- Below are the levels of authority and capabilities corresponding to each employee's position.
+	+ Staff: level 1 - 
+		.Can add/update/delete/search information in the "Customers list" and "Loans list" pages.
+		.Can add staff to the "Staffs list" page.
+		.Read and find all information on other pages.
+	+ Manager: level 2 -
+		.All capabilities of staff plus change/delete staff in the same department in the "Staffs list" page.
+	+ CEO: level 3 -
+		.All capabilities of manager plus change/delete all staffs with lower authority level in the "Staffs list" page.
+	+ Admin: level 4 -
+		.Can add/update/delete and read the information on all pages without restriction.
+		.Can access to the "Admin Manager" section.

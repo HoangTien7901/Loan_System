@@ -1,0 +1,41 @@
+- This page shows all loan is stored in the database. You can add, delete, update, or search the information of the loan and its installments here.
+- Add:
+	+ Click on the "Add" button. "Add loan detail" window appears.
+	+ Select loan account no of the customer who registers a new loan in the "Loan account no" combo box.
+	+ Select a loan type based on the purpose of the loan in the "Loan Type" combo box.
+	+ Fill in all field have * and click the "Add" button :
+		.Amount: only number.
+		.Duration: only number. Max value is 600 months or 50 years.
+	+ Click the "Reset" button to set all fields to default.
+- Update: 
+	+ Be aware that update a loan also means delete all of its installments, related fines, and messages and create new ones. 
+	It may cause loss data or error in the system, so don't update the loan unless it is really necessary.
+	+ Choose a loan in the table below. Right-click and select "Update". "Loan detail update" window appears.
+	+ Change what you need to change and click the "Update" button.
+	Note: 
+		# If you want to change the status of a loan from "pending" to "done", 
+	instead of changing it here, you should change all of its installment's status to done and the system will automatically change the status of the loan to "done".
+		# After creating a loan, the system will automatically create installments according to the duration of the loan. So if the number of the duration is too high,
+	it may take time for the system to create all installments.
+		# Please minimize the change of information here because, after each change, the system will "renew" all of its installments, fines, and related messages.
+	(Automatically delete all and create new ones)
+- Delete:
+ 	+ Be aware that delete a loan will also delete all related installments, fines, and messages, and may cause error or loss data in the system. 
+	+ Choose a loan in the table below and click the "Delete" button.
+	+ A message window will appear to confirm. Choose "Yes" to continue or "Cancel" or close the window to cancel.
+- Search: (you can search by one or multiple fields, not necessary to fill in all fields)
+	+ You can search based on "Loan account no", amount range of "Loan amount" and time range of the loan.
+	+ Loan account no: Insert the loan account no which you want to find.
+	+ Loan amount from ... to ...: Insert the lower bound in the first field and the higher bound in the second field.
+	+ Date from: Insert the lower bound base on disbursal date and the higher bound base on the term date in the second field.
+- Show installment details:
+	+ Choose a loan in the table below. Right-click and select "Installment details". "Installment details" window appears.
+	+ You can search by status by selecting a status and click the "Search" button. 
+	+ You can update an installment by selecting it in the table, right-click and choose "update". "Installment detail update" window appears.
+		.Payday: must not contain words and follows pattern dd/MM/yyyy. After this field is filled, status is automatically set to "done".
+		.Status: "done" if payday is not null and "pending" if payday is null.
+		Note: status "due" is automatically set by the system after an installment exceeds the term date.
+	
+	
+	
+	

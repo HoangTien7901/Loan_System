@@ -1,0 +1,15 @@
+- This page shows current positions in the database. You can add, delete, or update the information of positions here.
+- Add: 
+	+ Fill in the "Position name" field. This field only contains words, no number.
+	+ Fill in the "Authority level" field. This field only contains numbers. For more details about authority level, read "authority level" in "General" section.
+	+ Click on the "Add" button.
+- Delete:
+	+ Note: You can only delete a position if there is no staff with that position in the database.
+	+ Choose a position in the table below and click the "Delete" button.
+	+ A message window will appear to confirm. Choose "Yes" to continue or "Cancel" or close the window to cancel.
+- Update:
+	+ Choose a position in the table below. Right-click, choose "Update", 
+	then the name and authority level of that position will appear in the corresponding field and the "Add" button will change to "Update".
+	+ Change what you need and click the "Update" button. 
+- Reset: change all fields and the table to the default values.
+- Note: maximum authority level is 4 and only "admin" can have that authority level.

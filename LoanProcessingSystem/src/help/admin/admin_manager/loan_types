@@ -1,0 +1,17 @@
+- This page shows current loan types in the database. You can add, delete, or update the information of loan types here.
+- Add: 
+	+ Fill in the "Loan type name" field. This field only contains words, no number, you just need to enter the name of the loan type. 
+	+ Fill in the "Interest rate" field. This field only contains numbers.
+	Ex: Enter "Education" to the "Loan type name" field and click the "Add" button, " loan" will be automatically appended at the end of it.
+	+ Click on the "Add" button.
+- Delete:
+	+ Note: You can only delete a loan type if there is no loan with that loan type in the database.
+	+ Choose a loan type in the table below and click the "Delete" button.
+	+ A message window will appear to confirm. Choose "Yes" to continue or "Cancel" or close the window to cancel.
+- Update:
+	+ Choose a loan type in the table below. Right-click, choose "Update", 
+	then the name and interest rate of that loan type will appear in the corresponding field and the "Add" button will change to "Update".
+	+ Change what you need and click the "Update" button. 
+- Reset: change all fields and the table to the default values.
+Note: All ids are automatically increased and won't decrease after deleting a row. Please only delete if it is really necessary.
+
